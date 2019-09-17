@@ -21,7 +21,7 @@ while location != (3,1):
             print("You can travel: (E)ast or (S)outh.")
         elif direction == 'e' or direction == 'E':
             location = (2,2)
-            print("You can travel: (W)est or (S)outh.")
+            print("You can travel: (S)outh or (W)est.")
         elif direction == 's' or direction == 'S':
             location =(1,1)
             print("You can travel: (N)orth.")
@@ -43,7 +43,7 @@ while location != (3,1):
         direction = input('Direction: ')
         if direction == 'n' or direction == 'N':
             location = (2,2)
-            print("You can travel: (W)est or (S)outh.")
+            print("You can travel: (S)outh or (W)est.")
         else :
             print('Not a valid direction!')
 
